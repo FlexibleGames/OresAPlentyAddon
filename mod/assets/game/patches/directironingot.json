@@ -1,0 +1,79 @@
+[
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/ingot-iron/meltingPoint",
+    "value": 1100,
+    "file": "itemtypes/resource/ingot.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-iron/meltingPoint",
+    "value": 1100,
+    "file": "itemtypes/resource/metalbit.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-limonite/meltingPoint",
+    "value": 1100,
+    "file": "itemtypes/resource/nugget.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-hematite/meltingPoint",
+    "value": 1100,
+    "file": "itemtypes/resource/nugget.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-magnetite/meltingPoint",
+    "value": 1100,
+    "file": "itemtypes/resource/nugget.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-limonite/smeltedStack/code",
+    "value": "ingot-iron",
+    "file": "itemtypes/resource/nugget.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-hematite/smeltedStack/code",
+    "value": "ingot-iron",
+    "file": "itemtypes/resource/nugget.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-magnetite/smeltedStack/code",
+    "value": "ingot-iron",
+    "file": "itemtypes/resource/nugget.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/workitem-iron/meltingPoint",
+    "value": 1100,
+    "file": "itemtypes/resource/workitem.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/workitem-meteoriciron/meltingPoint",
+    "value": 1200,
+    "file": "itemtypes/resource/workitem.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/combustiblePropsByType/workitem-blistersteel/meltingPoint",
+    "value": 1200,
+    "file": "itemtypes/resource/workitem.json"
+  }
+]

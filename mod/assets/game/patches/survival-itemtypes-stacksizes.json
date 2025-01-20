@@ -1,0 +1,114 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 400,
+    "file": "itemtypes/resource/nugget.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxStackSize",
+    "value": 64,
+    "file": "blocktypes/wood/woodtyped/log.json"
+  },  
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxStackSize",
+    "value": 64,
+    "file": "blocktypes/wood/woodtyped/log-section.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxStackSize",
+    "value": 64,
+    "file": "blocktypes/wood/woodtyped/log-narrow.json"
+  },  
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 64,
+    "file": "itemtypes/resource/firewood.json"
+  },   
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 256,
+    "file": "itemtypes/resource/ingot.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 64,
+    "file": "itemtypes/resource/beeswax.json"
+  },  
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 64,
+    "file": "itemtypes/resource/honeycomb.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 64,
+    "file": "itemtypes/resource/flaxtwine.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 64,
+    "file": "itemtypes/resource/resin.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 64,
+    "file": "itemtypes/resource/candle.json"
+  },   
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 400,
+    "file": "itemtypes/resource/metalbit.json"
+  }, 
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 400,
+    "file": "itemtypes/resource/clay.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 400,
+    "file": "itemtypes/resource/stone.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 400,
+    "file": "itemtypes/resource/quartz/clearquartz.json"
+  },
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 400,
+    "file": "itemtypes/resource/ore-ungraded.json"
+  }   
+]  

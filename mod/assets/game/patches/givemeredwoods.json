@@ -1,0 +1,174 @@
+[
+  {
+	"side": "Server",
+    "op": "replace",
+    "path": "/treegens/21/Weight",
+    "value": 50,
+    "file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/treegens/21/MinTemp",
+    "value": 6,
+    "file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/treegens/21/MaxTemp",
+    "value": 19,
+    "file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/treegens/21/MinRain",
+    "value": 80,
+    "file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/treegens/21/MinFert",
+    "value": 20,
+    "file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/treegens/21/MinForest",
+    "value": 40,
+    "file": "worldgen/treengenproperties.json"
+  },
+
+ {
+	 "side": "Server",
+	"op": "replace",
+	"path": "/treegens/28/Weight",
+	"value": 2,
+	"file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+	"op": "replace",
+	"path": "/treegens/28/MinTemp",
+	"value": 26,
+	"file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+	"op": "replace",
+	"path": "/treegens/28/MaxTemp",
+	"value": 45,
+	"file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+	"op": "replace",
+	"path": "/treegens/28/MinRain",
+	"value": 120,
+	"file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+	"op": "replace",
+	"path": "/treegens/28/MinFert",
+	"value": 80,
+	"file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+	"op": "add",
+	"path": "/treegens/9/MinSize",
+	"value": 1.5,
+	"file": "worldgen/treengenproperties.json"
+  },
+
+  {
+	  "side": "Server",
+	"op": "add",
+	"path": "/treegens/9/MaxSize",
+	"value": 2.2,
+	"file": "worldgen/treengenproperties.json"
+  },
+
+
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/axe-felling-steel/wood",
+    "value": 20,
+    "file": "itemtypes/tool/axe-metal.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/axe-felling-steel/plant",
+    "value": 12,
+    "file": "itemtypes/tool/axe-metal.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/axe-felling-iron/wood",
+    "value": 12,
+    "file": "itemtypes/tool/axe-metal.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/treeGenByType/*-oak-*",
+    "value": "oldenglishoak",
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/treeGenByType/*-kapok-*",
+    "value": "largekapok2",
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*-redwood-*/avg",
+    "value": 3,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*-redwood-*/var",
+    "value": 2,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*-ebony-*/avg",
+    "value": 3,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*-ebony-*/var",
+    "value": 2,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*/avg",
+    "value": 2,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*/var",
+    "value": 1,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  }
+]

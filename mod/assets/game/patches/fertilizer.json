@@ -1,0 +1,30 @@
+[
+  {
+	"side": "Server",  
+    "op": "replace",
+    "path": "/attributes/fertilizerProps/p",
+    "value": 90,
+    "file": "itemtypes/resource/crushed/bonemeal.json"
+  },
+  {
+	"side": "Server",  
+    "op": "replace",
+    "path": "/attributes/fertilizerProps/k",
+    "value": 90,
+    "file": "itemtypes/resource/crushed/potash.json"
+  },
+  {
+	"side": "Server",  
+    "op": "replace",
+    "path": "/attributes/fertilizerProps/k",
+    "value": 90,
+    "file": "itemtypes/resource/crushed/saltpeter.json"
+  },
+  {
+	"side": "Server",  
+    "op": "replace",
+    "path": "/attributes/fertilizerProps/n",
+    "value": 90,
+    "file": "itemtypes/resource/compost.json"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "OresAPlentyAddon",
+  "name": "OresAPlenty Addon Mod",
+  "authors": [ "Flexible Games" ],
+  "description": "The non-ore related changes from my original Ores A Plenty mod.",
+  "website": "https://www.youtube.com/c/FlexibleGames",
+  "side": "Universal",
+  "version": "1.0.0",
+  "dependency": {}
+}

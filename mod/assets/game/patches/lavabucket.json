@@ -1,0 +1,21 @@
+[
+  {
+	  "side": "Server", 
+    "op": "add",
+    "path": "/attributesByType/lava-*",
+    "value": { 
+			waterTightContainerProps: {
+				containable: true,
+				itemsPerLitre: 1,
+				whenFilled: { stack: { type: "item", code: "game:lavaportion" } } }
+			},
+    "file": "blocktypes/liquid/lava.json"
+  },
+  {
+	  "side": "Server", 
+	"op": "add",
+	"path": "/snowCoverage",
+	"value": false,
+	"file": "blocktypes/liquid/lava"
+  }
+]

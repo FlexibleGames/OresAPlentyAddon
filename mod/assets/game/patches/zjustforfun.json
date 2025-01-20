@@ -1,0 +1,86 @@
+[
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attackpowerbytype/blade-falx-iron",
+    "value": 6,
+    "file": "itemtypes/tool/blade.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attackpowerbytype/blade-falx-meteoriciron",
+    "value": 60,
+    "file": "itemtypes/tool/blade.json"
+  },  
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/durabilitybytype/blade-falx-meteoriciron",
+    "value": 3600,
+    "file": "itemtypes/tool/blade.json"
+  },  
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/tooltierbytype/*-meteoriciron",
+    "value": 5,
+    "file": "itemtypes/tool/blade.json"
+  },  
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attackpowerbytype/blade-falx-steel",
+    "value": 12,
+    "file": "itemtypes/tool/blade.json"
+  },  
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attackpowerbytype/blade-falx-gold",
+    "value": 45,
+    "file": "itemtypes/tool/blade.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attributes/damageByType/*-iron",
+    "value": 4,
+    "file": "itemtypes/tool/arrow.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attributes/damageByType/*-meteoriciron",
+    "value": 16,
+    "file": "itemtypes/tool/arrow.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attributes/breakChanceOnImpactByType/*-meteoriciron",
+    "value": 0.001,
+    "file": "itemtypes/tool/arrow.json"
+  },  
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attributes/damageByType/*-steel",
+    "value": 10,
+    "file": "itemtypes/tool/arrow.json"
+  },  
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/attributes/breakChanceOnImpactByType/*-steel",
+    "value": 0.005,
+    "file": "itemtypes/tool/arrow.json"
+  },
+  {
+	"side": "Server", 
+    "op": "replace",
+    "path": "/combustibleProps/burnTemperature",
+    "value": 1900,
+    "file": "itemtypes/resource/coke.json"
+  }  
+]

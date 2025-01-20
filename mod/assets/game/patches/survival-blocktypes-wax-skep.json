@@ -1,0 +1,29 @@
+[
+  {
+	  "side": "Server", 
+    "op": "replace",
+    "path": "/drops/0/quantity/avg",
+    "value": 15,
+    "file": "blocktypes/wax/skep.json"
+  },
+  {
+	  "side": "Server", 
+	  "op": "remove",
+	  "path": "/drops/1",
+	  "file": "blocktypes/wax/skep.json"
+  },
+  {
+	  "side": "Server", 
+	  "op": "add",
+	  "path": "/drops/-",
+	  "value": { type: "block", code: "skep-empty-east", quantity: { avg: 1 } }, 
+	  "file": "blocktypes/wax/skep.json"
+  },
+  {
+	  "side": "Server", 
+	  "op": "replace",
+	  "path": "/maxstacksize",
+	  "value": 32,
+	  "file": "blocktypes/wax/skep.json"
+  }
+]
