@@ -1,0 +1,30 @@
+[
+  {
+	"side": "Server",
+    "op": "replace",
+    "path": "/attributes/transientPropsByType/tallplant-coopersreed-*/inGameHours",
+    "value": 48,
+    "file": "blocktypes/plant/reedpapyrus.json"
+  },
+  {
+	"side": "Server",
+    "op": "replace",
+    "path": "/attributes/transientPropsByType/tallplant-papyrus-*/inGameHours",
+    "value": 36,
+    "file": "blocktypes/plant/reedpapyrus.json"
+  },
+  {
+	"side": "Server",
+    "op": "replace",
+    "path": "/attributes/transientPropsByType/tallplant-tule-*/inGameHours",
+    "value": 48,
+    "file": "blocktypes/plant/reedpapyrus.json"
+  },
+  {
+	"side": "Server",
+    "op": "replace",
+    "path": "/attributes/transientPropsByType/tallplant-brownsedge-*/inGameHours",
+    "value": 36,
+    "file": "blocktypes/plant/reedpapyrus.json"
+  }
+]

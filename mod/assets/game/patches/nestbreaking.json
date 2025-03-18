@@ -1,0 +1,23 @@
+[
+  {
+	"side": "Server",
+    "op": "replace",
+    "path": "/resistance",
+    "value": 2,
+    "file": "blocktypes/locustnest/cage.json"
+  },
+  {
+	"side": "Server",
+    "op": "replace",
+    "path": "/resistance",
+    "value": 4,
+    "file": "blocktypes/locustnest/metalspikes.json"
+  },
+  {
+	"side": "Server",
+    "op": "replace",
+    "path": "/resistance",
+    "value": 2,
+    "file": "blocktypes/locustnest/stalagmite.json"
+  }
+]

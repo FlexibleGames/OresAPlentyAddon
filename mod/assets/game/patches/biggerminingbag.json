@@ -3,7 +3,14 @@
 	"side": "Server",
     "op": "replace",
     "path": "/attributes/backpack/quantitySlots",
-    "value": 35,
-    "file": "itemtypes/bag/miningbag.json"
-  }
+    "value": 42,
+    "file": "itemtypes/wearable/bag/miningbag.json"
+  },
+  {
+    "side": "Server",
+      "op": "replace",
+      "path": "/attributes/backpack/quantitySlots",
+      "value": 60,
+      "file": "itemtypes/wearable/bag/miningbagsturdy.json"
+    }
 ]

@@ -3,14 +3,14 @@
 	"side": "Server",
     "op": "replace",
     "path": "/treegens/21/Weight",
-    "value": 50,
+    "value": 70,
     "file": "worldgen/treengenproperties.json"
   },
   {
 	  "side": "Server",
     "op": "replace",
     "path": "/treegens/21/MinTemp",
-    "value": 6,
+    "value": 12,
     "file": "worldgen/treengenproperties.json"
   },
   {
@@ -24,29 +24,28 @@
 	  "side": "Server",
     "op": "replace",
     "path": "/treegens/21/MinRain",
-    "value": 80,
+    "value": 130,
     "file": "worldgen/treengenproperties.json"
   },
   {
 	  "side": "Server",
     "op": "replace",
     "path": "/treegens/21/MinFert",
-    "value": 20,
+    "value": 30,
     "file": "worldgen/treengenproperties.json"
   },
   {
 	  "side": "Server",
     "op": "replace",
     "path": "/treegens/21/MinForest",
-    "value": 40,
+    "value": 45,
     "file": "worldgen/treengenproperties.json"
   },
-
  {
 	 "side": "Server",
 	"op": "replace",
 	"path": "/treegens/28/Weight",
-	"value": 2,
+	"value": 1,
 	"file": "worldgen/treengenproperties.json"
   },
   {
@@ -67,19 +66,19 @@
 	  "side": "Server",
 	"op": "replace",
 	"path": "/treegens/28/MinRain",
-	"value": 120,
+	"value": 160,
 	"file": "worldgen/treengenproperties.json"
   },
   {
 	  "side": "Server",
 	"op": "replace",
 	"path": "/treegens/28/MinFert",
-	"value": 80,
+	"value": 140,
 	"file": "worldgen/treengenproperties.json"
   },
   {
 	  "side": "Server",
-	"op": "add",
+	"op": "addmerge",
 	"path": "/treegens/9/MinSize",
 	"value": 1.5,
 	"file": "worldgen/treengenproperties.json"
@@ -87,13 +86,11 @@
 
   {
 	  "side": "Server",
-	"op": "add",
-	"path": "/treegens/9/MaxSize",
-	"value": 2.2,
-	"file": "worldgen/treengenproperties.json"
+    "op": "addmerge",
+    "path": "/treegens/9/MaxSize",
+    "value": 2.2,
+    "file": "worldgen/treengenproperties.json"
   },
-
-
   {
 	  "side": "Server",
     "op": "replace",
@@ -117,9 +114,59 @@
   },
   {
 	  "side": "Server",
+    "op": "addmerge",
+    "path": "/treegens/-",
+    "value":
+    {
+			"_comment": "Even Larger variant of the oldenglishoak",
+			"Generator": "largeoldenglishoak",
+			"MinSize": 1.9,
+			"MaxSize": 2.8,
+			"SuitabilitySizeBonus": 0,
+			"Weight": 0.5,
+			"MinTemp": 12,
+			"MaxTemp": 22,
+			"MinRain": 135,
+			"MaxRain": 170,
+			"MinFert": 120,
+			"MaxFert": 255,
+			"MinForest": 90,
+			"MaxForest": 200,
+			"MinHeight": 0.75,
+			"MaxHeight": 1
+		},
+    "file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
+    "op": "addmerge",
+    "path": "/treegens/-",
+    "value":
+    {
+			"_comment": "Large acacia",
+			"Generator": "largeacacia",
+			"MinSize": 1.8,
+			"MaxSize": 2.2,
+			"SuitabilitySizeBonus": 0,
+			"Weight": 1,
+			"MinTemp": 28,
+			"MaxTemp": 45,
+			"MinRain": 135,
+			"MaxRain": 170,
+			"MinFert": 50,
+			"MaxFert": 255,
+			"MinForest": 40,
+			"MaxForest": 255,
+			"MinHeight": 0.75,
+			"MaxHeight": 1
+		},
+    "file": "worldgen/treengenproperties.json"
+  },
+  {
+	  "side": "Server",
     "op": "replace",
     "path": "/attributes/treeGenByType/*-oak-*",
-    "value": "oldenglishoak",
+    "value": "largeoldenglishoak",
     "file": "blocktypes/plant/plaintreesapling.json"
   },
   {
@@ -127,6 +174,13 @@
     "op": "replace",
     "path": "/attributes/treeGenByType/*-kapok-*",
     "value": "largekapok2",
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/treeGenByType/*-acacia-*",
+    "value": "largeacacia",
     "file": "blocktypes/plant/plaintreesapling.json"
   },
   {
@@ -154,6 +208,34 @@
 	  "side": "Server",
     "op": "replace",
     "path": "/attributes/matureDaysByType/*-ebony-*/var",
+    "value": 2,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*-purpleheart-*/avg",
+    "value": 3,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*-purpleheart-*/var",
+    "value": 1,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*-walnut-*/avg",
+    "value": 2,
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/attributes/matureDaysByType/*-walnut-*/var",
     "value": 2,
     "file": "blocktypes/plant/plaintreesapling.json"
   },

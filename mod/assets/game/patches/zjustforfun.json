@@ -1,86 +1,177 @@
 [
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/attackpowerbytype/blade-falx-iron",
     "value": 6,
     "file": "itemtypes/tool/blade.json"
   },
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/attackpowerbytype/blade-falx-meteoriciron",
     "value": 60,
     "file": "itemtypes/tool/blade.json"
-  },  
+  },
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/durabilitybytype/blade-falx-meteoriciron",
     "value": 3600,
     "file": "itemtypes/tool/blade.json"
-  },  
+  },
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/tooltierbytype/*-meteoriciron",
     "value": 5,
     "file": "itemtypes/tool/blade.json"
-  },  
+  },
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/attackpowerbytype/blade-falx-steel",
-    "value": 12,
-    "file": "itemtypes/tool/blade.json"
-  },  
-  {
-	"side": "Server", 
-    "op": "replace",
-    "path": "/attackpowerbytype/blade-falx-gold",
-    "value": 45,
+    "value": 50,
     "file": "itemtypes/tool/blade.json"
   },
   {
-	"side": "Server", 
+	"side": "Server",
+    "op": "replace",
+    "path": "/attackpowerbytype/blade-falx-gold",
+    "value": 90,
+    "file": "itemtypes/tool/blade.json"
+  },
+  {
+	"side": "Server",
     "op": "replace",
     "path": "/attributes/damageByType/*-iron",
     "value": 4,
     "file": "itemtypes/tool/arrow.json"
   },
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/attributes/damageByType/*-meteoriciron",
     "value": 16,
     "file": "itemtypes/tool/arrow.json"
   },
   {
-	"side": "Server", 
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/axe-felling-meteoriciron/wood",
+    "value": 20,
+    "file": "itemtypes/tool/axe-metal.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/durabilitybytype/axe-felling-meteoriciron",
+    "value": 20000,
+    "file": "itemtypes/tool/axe-metal.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/durabilitybytype/pickaxe-meteoriciron",
+    "value": 10000,
+    "file": "itemtypes/tool/pickaxe.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/pickaxe-meteoriciron/stone",
+    "value": 20,
+    "file": "itemtypes/tool/pickaxe.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/pickaxe-meteoriciron/ore",
+    "value": 20,
+    "file": "itemtypes/tool/pickaxe.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/pickaxe-meteoriciron/metal",
+    "value": 20,
+    "file": "itemtypes/tool/pickaxe.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/durabilitybytype/hammer-meteoriciron",
+    "value": 20000,
+    "file": "itemtypes/tool/hammer.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/durabilitybytype/chisel-meteoriciron",
+    "value": 20000,
+    "file": "itemtypes/tool/chisel.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/durabilitybytype/saw-meteoriciron",
+    "value": 20000,
+    "file": "itemtypes/tool/saw.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/durabilitybytype/shovel-meteoriciron",
+    "value": 20000,
+    "file": "itemtypes/tool/shovel.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/shovel-meteoriciron/soil",
+    "value": 20,
+    "file": "itemtypes/tool/shovel.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/shovel-meteoriciron/sand",
+    "value": 20,
+    "file": "itemtypes/tool/shovel.json"
+  },
+  {
+	  "side": "Server",
+    "op": "replace",
+    "path": "/miningspeedbytype/shovel-meteoriciron/gravel",
+    "value": 20,
+    "file": "itemtypes/tool/shovel.json"
+  },
+  {
+	"side": "Server",
     "op": "replace",
     "path": "/attributes/breakChanceOnImpactByType/*-meteoriciron",
     "value": 0.001,
     "file": "itemtypes/tool/arrow.json"
-  },  
+  },
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/attributes/damageByType/*-steel",
     "value": 10,
     "file": "itemtypes/tool/arrow.json"
-  },  
+  },
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/attributes/breakChanceOnImpactByType/*-steel",
     "value": 0.005,
     "file": "itemtypes/tool/arrow.json"
   },
   {
-	"side": "Server", 
+	"side": "Server",
     "op": "replace",
     "path": "/combustibleProps/burnTemperature",
     "value": 1900,
     "file": "itemtypes/resource/coke.json"
-  }  
+  }
 ]
