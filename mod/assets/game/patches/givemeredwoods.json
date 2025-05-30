@@ -120,8 +120,8 @@
     {
 			"_comment": "Even Larger variant of the oldenglishoak",
 			"Generator": "largeoldenglishoak",
-			"MinSize": 1.9,
-			"MaxSize": 2.8,
+			"MinSize": 1.2,
+			"MaxSize": 1.8,
 			"SuitabilitySizeBonus": 0,
 			"Weight": 0.5,
 			"MinTemp": 12,
@@ -145,8 +145,8 @@
     {
 			"_comment": "Large acacia",
 			"Generator": "largeacacia",
-			"MinSize": 1.8,
-			"MaxSize": 2.2,
+			"MinSize": 1.6,
+			"MaxSize": 1.9,
 			"SuitabilitySizeBonus": 0,
 			"Weight": 1,
 			"MinTemp": 28,
@@ -164,9 +164,54 @@
   },
   {
 	  "side": "Server",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "largeoak",
+    "file": "itemtypes/resource/treeseed.json"
+  },
+  {
+	  "side": "Server",
+    "op": "addmerge",
+    "path": "/guiTransformByType/*-largeoak",
+    "value": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 174, "y": 81, "z": 133 },
+			"origin": { "x": 0.58, "y": 0.16, "z": 0.51 },
+			"scale": 3.88
+		  },
+    "file": "itemtypes/resource/treeseed.json"
+  },
+  {
+	  "side": "Server",
+    "op": "addmerge",
+    "path": "/groundTransformByType/*-largeoak",
+    "value": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 2.27
+		},
+    "file": "itemtypes/resource/treeseed.json"
+  },
+  {
+	  "side": "Server",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "largeoak",
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
+    "op": "addmerge",
+    "path": "/attributes/treeGenByType/*-largeoak-*",
+    "value": "largeoldenglishoak",
+    "file": "blocktypes/plant/plaintreesapling.json"
+  },
+  {
+	  "side": "Server",
     "op": "replace",
     "path": "/attributes/treeGenByType/*-oak-*",
-    "value": "largeoldenglishoak",
+    "value": "oldenglishoak",
     "file": "blocktypes/plant/plaintreesapling.json"
   },
   {

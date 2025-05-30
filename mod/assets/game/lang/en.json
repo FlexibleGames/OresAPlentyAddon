@@ -1,4 +1,6 @@
 {
-	"item-lavaportion": "Portion of Lava (1 Litre)",
-	"incontainer-item-lavaportion": "Lava"
+	"game:item-lavaportion": "Portion of Lava",
+	"game:incontainer-item-lavaportion": "Lava",
+	"game:item-treeseed-largeoak": "Large Oak Seed",
+	"game:block-sapling-largeoak-*": "Large Oak Sapling"
 }

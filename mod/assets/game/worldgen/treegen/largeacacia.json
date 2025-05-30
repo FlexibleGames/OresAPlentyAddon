@@ -1,7 +1,7 @@
 {
 	treeWorldPropertyCode: "largeacacia",
 	isTropical: true,
-	sizeMultiplier: 2.9,
+	sizeMultiplier: 2.1,
 	yOffset: -1,
 	trunks: [{
 		widthloss: 0.05,

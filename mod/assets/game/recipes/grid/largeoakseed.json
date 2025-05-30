@@ -1,0 +1,20 @@
+[
+	{
+		"ingredientPattern": "G",
+		"ingredients": {
+			"G": { "type": "item", "code": "treeseed-oak", "quantity": 2 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "treeseed-largeoak", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "G",
+		"ingredients": {
+			"G": { "type": "item", "code": "treeseed-largeoak", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "treeseed-oak", "quantity": 2  }
+	}
+]

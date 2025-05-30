@@ -1,6 +1,6 @@
 {
 	treeWorldPropertyCode: "largeoldenglishoak",
-	sizeMultiplier: 3.4,
+	sizeMultiplier: 2.2,
 	yOffset: -1,
 	trunks: [{
 		widthloss: 0.05,
